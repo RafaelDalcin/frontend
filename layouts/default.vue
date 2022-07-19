@@ -57,7 +57,7 @@
         <v-icon>mdi-menu</v-icon>
       </v-btn>
     </v-app-bar>
-    <v-main>
+    <v-main style="background-color:#0e0d0d00;">
       <v-container>
         <Nuxt />
       </v-container>
@@ -108,9 +108,9 @@ export default {
           to: '/inspire'
         },
         {
-          icon: 'mdi-sword',
-          title: 'carcule',
-          to: '/carcule'
+          icon: 'mdi-weed',
+          title: 'seloko',
+          to: '/login'
         }
       ],
       miniVariant: false,
